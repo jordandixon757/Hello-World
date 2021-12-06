@@ -1,0 +1,44 @@
+<html>
+    <head><style>
+    p.a {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:20px;
+    }
+    p.b {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        color:darkorchid;
+    }
+</style>
+</head>
+<body>this is a body
+
+<header>this is a header </header>
+<h2>this is an h2</h2>
+<h3>this is an h3</h3>
+
+
+
+<p class="a">This should have different font/size.</p>
+<p class="b">I can keep count.</p>
+
+
+
+    <button type="button" onClick="click()">Click me</button>
+    <p id="clicks">Clicks:  </p>
+
+
+<footer>this is a footer</footer>
+<f2>this is an f2</f2>
+
+</body>
+    <script> type="text/javascript">
+    
+    function click() {
+        var clicks = 0;
+        clicks += 1;
+        document.getElementByID(clicks).innerHTML = clicks;
+    }
+    </script>
+
+</html>
