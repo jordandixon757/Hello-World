@@ -1,11 +1,11 @@
-        .input {
+        .loginform {
             border: 2px solid slategray;
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
             font-size: 20px;
             color:black;
         }
 
-    .div0 {
+    .formcontainer {
         border: 3px dashed black;
         font-family: sans-serif;
         font-size: 30px;
